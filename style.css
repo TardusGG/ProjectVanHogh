@@ -1,0 +1,185 @@
+body{
+    font: Montserrat;
+    background-color: black;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    }
+.info{
+    display: flex;
+    align-items: center;
+    
+}
+.info a{
+    margin-right: 100px;
+}
+.multi{
+    display: flex;
+    height: 400px;
+    width: 400px;
+}
+.date{
+    font-size: 15px;
+    color: white;
+    margin-top: 100px;
+}
+.VanandTeo{
+    color: white;
+}
+.info a{
+    text-decoration: none; 
+    color: white;
+    font-size: large;
+}
+.info a:hover{
+    text-decoration:wavy; 
+    color: #FFCD38;
+}
+.imgaeV img{
+filter: drop-shadow(0 0 200px #FFCD38);
+}
+.buy{
+    background: linear-gradient(to right, #FEA70B
+    , #FE7D20
+    );
+    border-radius: 20px ; 
+    width: 180px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+.buy span{
+display: flex;
+align-items: center;
+}
+.dateT{
+    margin-left: 12px;
+}
+
+.buy:hover{
+    border: 2px solid rgb(232, 225, 225);
+    background-color: #b01210;
+    background:linear-gradient(to right, #f5c05c, #d64203);
+    cursor:pointer;
+   
+
+}
+.citata{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.kovich{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    margin-bottom: -60px;
+}
+.kovich p{
+    color: black;
+    font-size: 100px;
+    margin: 0 auto;
+    margin-left: 100px;
+    text-shadow: 1px 0 1px #ffd303, 0 1px 1px #bf9e13, -1px 0 1px #b39411, 0 -1px 1px #c09d12;
+    font-family: Futura;
+}
+.vanC{
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+.vanC p{
+    font-size: 25px;
+}
+.vistavka{
+    display: flex;
+    margin-top: 100px;
+}
+.photo1 img{
+    width: 400px;
+    height: 350px;
+}
+.photo2 img{
+    width: 400px;
+    height: 400px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+.photo2 img{
+    filter: drop-shadow(0 0 200px #FFCD38);
+    width: 450px;
+    height: 450px;
+}
+.galeryphoto{
+    display: flex;
+    color: #FFCD38;
+    filter: drop-shadow(0 0 100px #b89b47);
+}
+.galeryphoto img{
+    width: 400px;
+    height: 350px;
+}
+.galerytext{
+    margin-left: 20px;
+}
+.pokypka{
+    display: flex;
+    margin-top: 100px;
+}
+.bilet{
+    margin-left: 10px;
+}
+.anketa{
+    margin-top: 85px;
+}
+
+.anketa input {
+    display: block;
+    width: 400px;
+    padding: 0 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    align-items: center;
+
+}
+.anketa ::placeholder{
+    padding-left: 130px;
+} 
+.anketa ::placeholder :last-child{
+    padding-left: 80px;
+} 
+
+.anketa input,
+.anketa input::placeholder {
+    font: 20px/3 sans-serif;
+    
+}
+.info p{
+    font-size: 20px;
+}
+#footer1{
+    margin-top: 100px;
+}
+#footer{
+    display: flex;
+    margin-right: 20px;
+    
+}
+#footer div p{
+    font-size: 15px;
+    margin-right: 100px;
+}
